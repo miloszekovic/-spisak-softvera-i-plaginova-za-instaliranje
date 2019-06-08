@@ -1,0 +1,89 @@
+/* http://typespiration.com/design/faded-sunset/ */ 
+
+body {
+  color: #dbdedf;
+  font-family: 'Mandali';
+  font-size: 20px;
+  font-weight: 500;
+  background: #151d20;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+ul {
+  padding-left: 12px;
+}
+
+li {
+  list-style: none;
+  line-height: 1.8;
+}
+
+label {
+  cursor: pointer;
+}
+
+label b {
+  padding: 0 0 0 10px;
+}
+
+input[type=checkbox] {
+  transform: scale(1.5);
+}
+
+h1 {
+  color: #dbdedf;
+  font-size: 38px;
+  margin-bottom: -60px;
+}
+
+h1:after {
+	background: #050607;
+	content: '';
+	display: block;
+	height: 2px;
+	margin: 43px 0;
+	width: 100%;
+}
+
+h2 {
+  color: #00a9e8;
+  padding: 80px 0 30px;
+}
+
+a {
+  color: #00a9e8;
+  text-decoration: none;
+}
+
+a:hover {
+	color: #02688e;
+}
+
+sub {
+  display: block;
+  padding: 100px 0;
+  font-size: 12px;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 32px;
+}
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 66px;
+    text-align: center;
+  }
+  ul {
+    padding-left: 40px;
+  }
+  .spisak, h2 {
+    padding-left: 20%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: minmax(auto, 200px) 1fr;
+    align-items: center;
+  }
+}
